@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController setHomeServerTextFieldText:]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.defaultHomeServerUrl">
+            </PersistentString>
+            <PersistentString
+               value = "_defaultHomeServerUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController loginWithParameters:]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mxCurrentOperation">
+            </PersistentString>
+            <PersistentString
+               value = "mxRestClient">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController setIdentityServerTextFieldText:]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_identityServerTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController updateRESTClient]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_homeServerTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__51-[MXKAuthenticationViewController onButtonPressed:]_block_invoke:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_authenticationActivityIndicator">
+            </PersistentString>
+            <PersistentString
+               value = "mxRestClient">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXRestClient registerOrLogin:parameters:success:failure:]:MXRestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "JSONResponse">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController viewDidLoad]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_identityServerTextField.text">
+            </PersistentString>
+            <PersistentString
+               value = "_defaultHomeServerUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MXKAuthenticationViewController onSuccessfulLogin:]:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_identityServerTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[MXKAppSettings cacheFolder]:MXKAppSettings.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedContainerURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__55-[MXKAuthenticationViewController loginWithParameters:]_block_invoke:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mxCurrentOperation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

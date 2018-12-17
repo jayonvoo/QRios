@@ -1,0 +1,6 @@
+framework module Pods_RiotPods_Riot {
+  umbrella header "Pods-RiotPods-Riot-umbrella.h"
+
+  export *
+  module * { export * }
+}

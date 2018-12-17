@@ -1,0 +1,6 @@
+framework module Pods_RiotPods_RiotShareExtension {
+  umbrella header "Pods-RiotPods-RiotShareExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

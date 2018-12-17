@@ -1,0 +1,6 @@
+framework module Pods_RiotPods_SiriIntents {
+  umbrella header "Pods-RiotPods-SiriIntents-umbrella.h"
+
+  export *
+  module * { export * }
+}
