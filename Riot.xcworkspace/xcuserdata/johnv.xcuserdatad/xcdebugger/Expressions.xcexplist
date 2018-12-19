@@ -3,13 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[MXKAuthenticationViewController setHomeServerTextFieldText:]:MXKAuthenticationViewController.m">
+         contextName = "-[MXKAuthenticationViewController setIdentityServerTextFieldText:]:MXKAuthenticationViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.defaultHomeServerUrl">
-            </PersistentString>
-            <PersistentString
-               value = "_defaultHomeServerUrl">
+               value = "_identityServerTextField.text">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -25,10 +22,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[MXKAuthenticationViewController setIdentityServerTextFieldText:]:MXKAuthenticationViewController.m">
+         contextName = "-[MXKAuthenticationViewController setHomeServerTextFieldText:]:MXKAuthenticationViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "_identityServerTextField.text">
+               value = "self.defaultHomeServerUrl">
+            </PersistentString>
+            <PersistentString
+               value = "_defaultHomeServerUrl">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -91,6 +91,14 @@
          <PersistentStrings>
             <PersistentString
                value = "mxCurrentOperation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__62-[MXKAuthenticationViewController autoQRLogin:autoQRPassword:]_block_invoke:MXKAuthenticationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mxRestClient">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

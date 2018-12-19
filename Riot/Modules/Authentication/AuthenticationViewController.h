@@ -17,7 +17,9 @@
 
 #import <MatrixKit/MatrixKit.h>
 
-@interface AuthenticationViewController : MXKAuthenticationViewController <MXKAuthenticationViewControllerDelegate>
+@interface AuthenticationViewController : MXKAuthenticationViewController <MXKAuthenticationViewControllerDelegate>{
+    AVCaptureVideoPreviewLayer *layer;
+}
 
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 

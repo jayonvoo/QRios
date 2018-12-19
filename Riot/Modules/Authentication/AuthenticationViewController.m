@@ -166,7 +166,7 @@
                                   AVMetadataObjectTypeCode128Code,
                                   AVMetadataObjectTypePDF417Code*/];
     
-    AVCaptureVideoPreviewLayer *layer = [AVCaptureVideoPreviewLayer layerWithSession:session];
+    layer = [AVCaptureVideoPreviewLayer layerWithSession:session];
     layer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     layer.frame = self.view.layer.bounds;
     [self.view.layer insertSublayer:layer atIndex:0];
@@ -192,7 +192,8 @@
     if (metadataObjects.count>0) {
         [mySession stopRunning];
         metadataObject = metadataObjects[0];
-        [self dismissViewControllerAnimated:YES completion:Nil]; //closing QR Page
+        //[self dismissViewControllerAnimated:YES completion:Nil]; //closing QR Page
+        [layer removeFromSuperlayer];
         NSLog(@"%@",metadataObject.stringValue);
     }
     
@@ -270,6 +271,14 @@
     }
     //AuthInputsView *auth = [[AuthInputsView alloc] init];
     
+    NSString *combineHomeId;
+    NSString *combineIdentityId;
+    
+    combineHomeId = [NSString stringWithFormat:@"%@.%@:8448", [jsonObj objectForKey:@"rs1"], [jsonObj objectForKey:@"dm"]];
+    combineIdentityId = [NSString stringWithFormat:@"%@.%@:8090", [jsonObj objectForKey:@"rs2"], [jsonObj objectForKey:@"dm"]];
+    
+    [super setHomeServerTextFieldText:combineHomeId];
+    [super setIdentityServerTextFieldText:combineIdentityId];
     [super autoQRLogin:[jsonObj objectForKey:@"ac"] autoQRPassword:[jsonObj objectForKey:@"pa"]];
 }
 
