@@ -361,6 +361,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03E212BB21CB86770008F6A1 /* Riot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riot.entitlements; sourceTree = "<group>"; };
 		24CBEC4E1F0EAD310093EABB /* RiotShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RiotShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2510A69B4A681C1FEC36E848 /* Pods_RiotPods_Riot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiotPods_Riot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319CD7C67A47A3D35959E18F /* Pods-RiotPods-Riot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiotPods-Riot.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiotPods-Riot/Pods-RiotPods-Riot.release.xcconfig"; sourceTree = "<group>"; };
@@ -2381,6 +2382,7 @@
 		F083BB081E7009EC00A9B29C /* Riot */ = {
 			isa = PBXGroup;
 			children = (
+				03E212BB21CB86770008F6A1 /* Riot.entitlements */,
 				F083BB0C1E7009EC00A9B29C /* AppDelegate.h */,
 				F083BB0D1E7009EC00A9B29C /* AppDelegate.m */,
 				B16932A620F3A6FA00746532 /* Constants */,
@@ -3474,6 +3476,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Riot/Riot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = HYYAR6WSKN;
 				ENABLE_BITCODE = NO;
@@ -3515,6 +3519,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Riot/Riot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HYYAR6WSKN;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

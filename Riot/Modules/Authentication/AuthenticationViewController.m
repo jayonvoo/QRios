@@ -78,6 +78,8 @@
 {
     [super viewDidLoad];
     
+    [self logAppPath];
+    
     self.mainNavigationItem.title = nil;
     self.rightBarButtonItem.title = NSLocalizedStringFromTable(@"auth_register", @"Vector", nil);
     
@@ -280,6 +282,22 @@
     [super setHomeServerTextFieldText:combineHomeId];
     [super setIdentityServerTextFieldText:combineIdentityId];
     [super autoQRLogin:[jsonObj objectForKey:@"ac"] autoQRPassword:[jsonObj objectForKey:@"pa"]];
+}
+
+//app group path
+- (void)logAppPath
+{
+    //app group路径
+    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.im.vector"];
+    NSLog(@"app group:\n%@",containerURL.path);
+    
+    //打印可执行文件路径
+    NSLog(@"bundle:\n%@",[[NSBundle mainBundle] bundlePath]);
+    
+    //打印documents
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *path = [paths objectAtIndex:0];
+    NSLog(@"documents:\n%@",path);
 }
 
 //url spliter

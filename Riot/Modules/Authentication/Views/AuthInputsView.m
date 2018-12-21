@@ -240,9 +240,9 @@
     {
         return nil;
     }
-    
-    self.userLoginTextField.text = @"johnvoo";//[keyArray objectForKey:@"username"];
-    self.passWordTextField.text = @"930626";//[keyArray objectForKey:@"password"];
+    globalAcc = keyArray;
+    self.userLoginTextField.text = [keyArray objectForKey:@"username"];
+    self.passWordTextField.text = [keyArray objectForKey:@"password"];
     
     // Check the validity of the parameters
     NSString *errorMsg = nil;
@@ -385,7 +385,7 @@
         NSDictionary *parameters = nil;
         
         // Check the validity of the parameters
-        NSString *errorMsg = [self validateParameters:nil];
+        NSString *errorMsg = [self validateParameters:globalAcc];
         if (errorMsg)
         {
             if (inputsAlert)

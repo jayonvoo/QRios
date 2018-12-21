@@ -19,7 +19,9 @@
 
 #import "Riot-Swift.h"
 
-@interface AuthInputsView : MXKAuthInputsView <MXKCountryPickerViewControllerDelegate>
+@interface AuthInputsView : MXKAuthInputsView <MXKCountryPickerViewControllerDelegate>{
+    NSMutableDictionary *globalAcc;
+}
 
 @property (strong, nonatomic) IBOutlet UITextField *userLoginTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passWordTextField;
