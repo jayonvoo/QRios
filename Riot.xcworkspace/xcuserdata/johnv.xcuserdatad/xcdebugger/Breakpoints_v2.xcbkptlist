@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Models/MXKAppSettings.m"
-            timestampString = "567051950.412786"
+            timestampString = "567508850.0086319"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Models/MXKAppSettings.m"
-            timestampString = "567051950.413059"
+            timestampString = "567508850.008984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.548221"
+            timestampString = "567508850.0090671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "220"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.548956"
+            timestampString = "567508850.009681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "221"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.549298"
+            timestampString = "567508850.009957"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "223"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.343711"
+            timestampString = "567505245.057474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "519"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.344762"
+            timestampString = "567505245.057672"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "514"
@@ -118,11 +118,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.34524"
+            timestampString = "567505245.057714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "813"
@@ -134,11 +134,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.345636"
+            timestampString = "567505245.05775"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "816"
@@ -150,11 +150,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.346011"
+            timestampString = "567505245.057785"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "815"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.346384"
+            timestampString = "567505245.0578181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "817"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.549724"
+            timestampString = "567508850.010255"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "224"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.346778"
+            timestampString = "567505245.057887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "798"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.347149"
+            timestampString = "567505245.057919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "799"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.347627"
+            timestampString = "567505245.057953"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "801"
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.348151"
+            timestampString = "567505245.0579849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "802"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.3485481"
+            timestampString = "567505245.058017"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "805"
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.348936"
+            timestampString = "567505245.058049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "808"
@@ -298,7 +298,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.3493069"
+            timestampString = "567505245.0580831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "811"
@@ -357,11 +357,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.349677"
+            timestampString = "567505245.058126"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "818"
@@ -373,11 +373,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.350042"
+            timestampString = "567505245.058161"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "820"
@@ -393,7 +393,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.3504111"
+            timestampString = "567505245.058193"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "837"
@@ -409,7 +409,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.35078"
+            timestampString = "567505245.058225"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "838"
@@ -425,7 +425,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.351186"
+            timestampString = "567505245.058256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "840"
@@ -441,7 +441,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.35164"
+            timestampString = "567505245.0582891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "839"
@@ -457,7 +457,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.3520989"
+            timestampString = "567505245.05832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "841"
@@ -473,7 +473,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.352493"
+            timestampString = "567505245.0583529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "842"
@@ -489,7 +489,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-            timestampString = "566991748.3528661"
+            timestampString = "567505245.0583839"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "843"
@@ -504,8 +504,8 @@
                   symbolName = "-[MXKAuthenticationViewController autoQRLogin:autoQRPassword:]"
                   moduleName = "MatrixKit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnv/Desktop/riot-ios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-                  timestampString = "567052459.07809"
+                  urlString = "file:///Users/johnv/Desktop/QRios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
+                  timestampString = "567508850.812693"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "844"
@@ -519,8 +519,8 @@
                   symbolName = "__62-[MXKAuthenticationViewController autoQRLogin:autoQRPassword:]_block_invoke.336"
                   moduleName = "MatrixKit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnv/Desktop/riot-ios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-                  timestampString = "567052459.080301"
+                  urlString = "file:///Users/johnv/Desktop/QRios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
+                  timestampString = "567508850.814502"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "847"
@@ -534,8 +534,8 @@
                   symbolName = "__destroy_helper_block_.353"
                   moduleName = "MatrixKit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnv/Desktop/riot-ios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
-                  timestampString = "567052459.0827039"
+                  urlString = "file:///Users/johnv/Desktop/QRios/Pods/MatrixKit/MatrixKit/Controllers/MXKAuthenticationViewController.m"
+                  timestampString = "567508850.816268"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "844"
@@ -548,11 +548,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.550324"
+            timestampString = "567508850.010617"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "291"
@@ -564,11 +564,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.550616"
+            timestampString = "567508850.010988"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "292"
@@ -580,11 +580,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.550894"
+            timestampString = "567508850.011381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "295"
@@ -596,11 +596,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.551149"
+            timestampString = "567508850.01168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "300"
@@ -612,16 +612,96 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
-            timestampString = "567052457.551375"
+            timestampString = "567508850.012009"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "301"
             endingLineNumber = "301"
             landmarkName = "-logAppPath"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/MatrixKit/MatrixKit/Models/MXKAppSettings.m"
+            timestampString = "567508850.012261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "+cacheFolder"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/MatrixKit/MatrixKit/Models/MXKAppSettings.m"
+            timestampString = "567508850.012338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "+cacheFolder"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
+            timestampString = "567508850.012382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
+            timestampString = "567508850.012596"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Riot/Modules/Authentication/AuthenticationViewController.m"
+            timestampString = "567508850.012803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

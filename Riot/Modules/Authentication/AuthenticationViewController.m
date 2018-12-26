@@ -78,7 +78,7 @@
 {
     [super viewDidLoad];
     
-    [self logAppPath];
+    //[self logAppPath];
     
     self.mainNavigationItem.title = nil;
     self.rightBarButtonItem.title = NSLocalizedStringFromTable(@"auth_register", @"Vector", nil);
@@ -276,7 +276,7 @@
     NSString *combineHomeId;
     NSString *combineIdentityId;
     
-    combineHomeId = [NSString stringWithFormat:@"%@.%@:8448", [jsonObj objectForKey:@"rs1"], [jsonObj objectForKey:@"dm"]];
+    combineHomeId = [NSString stringWithFormat:@"%@.%@:8008", [jsonObj objectForKey:@"rs1"], [jsonObj objectForKey:@"dm"]];
     combineIdentityId = [NSString stringWithFormat:@"%@.%@:8090", [jsonObj objectForKey:@"rs2"], [jsonObj objectForKey:@"dm"]];
     
     [super setHomeServerTextFieldText:combineHomeId];
@@ -288,7 +288,7 @@
 - (void)logAppPath
 {
     //app group路径
-    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.im.vector"];
+    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.im.vector.app.qrlin"];
     NSLog(@"app group:\n%@",containerURL.path);
     
     //打印可执行文件路径
