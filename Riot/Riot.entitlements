@@ -12,5 +12,7 @@
 	<array>
 		<string>group.com.im.vector.app.qrlin</string>
 	</array>
+	<key>inter-app-audio</key>
+	<true/>
 </dict>
 </plist>
