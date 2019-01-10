@@ -33,7 +33,7 @@
     self = [super init];
     if (self)
     {
-        [MXSDKOptions sharedInstance].applicationGroupIdentifier = @"group.com.im.vector.app.qrlin";
+        [MXSDKOptions sharedInstance].applicationGroupIdentifier = @"group.com.tungqr.apns.ssl";
 
         // NSLog -> console.log file when not debugging the app
         if (!isatty(STDERR_FILENO))

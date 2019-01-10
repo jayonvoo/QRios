@@ -10,6 +10,7 @@
 		0326A95221C8E836004CCC99 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B556FC20EE6C4C00210D55 /* AuthenticationViewController.m */; };
 		036A2AD021D688D700E5B323 /* RiotShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24CBEC4E1F0EAD310093EABB /* RiotShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		036A2AD121D688E200E5B323 /* SiriIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 92726A431F58737A004AD26F /* SiriIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03A3F07B21E443A90097B178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F083BB0D1E7009EC00A9B29C /* AppDelegate.m */; };
 		03DB76D421E23E6F0088CA3A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DB76D321E23E6F0088CA3A /* AudioToolbox.framework */; };
 		24EEE5A21F23A8B400B3C705 /* MXRoom+Riot.m in Sources */ = {isa = PBXBuildFile; fileRef = F083BBE81E7009EC00A9B29C /* MXRoom+Riot.m */; };
 		24EEE5A31F23A8C300B3C705 /* AvatarGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F083BC111E7009EC00A9B29C /* AvatarGenerator.m */; };
@@ -305,7 +306,6 @@
 		B1D250D82118AA0A000F4E93 /* RoomPredecessorBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D250D72118AA0A000F4E93 /* RoomPredecessorBubbleCell.m */; };
 		CD9C4E21170ABE528E087A51 /* Pods_RiotPods_SiriIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0B9DB497F579AB1084E3DC /* Pods_RiotPods_SiriIntents.framework */; };
 		F05927C91FDED836009F2A68 /* MXGroup+Riot.m in Sources */ = {isa = PBXBuildFile; fileRef = F05927C71FDED835009F2A68 /* MXGroup+Riot.m */; };
-		F083BD1E1E7009ED00A9B29C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F083BB0D1E7009EC00A9B29C /* AppDelegate.m */; };
 		F083BDE61E7009ED00A9B29C /* busy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F083BBDB1E7009EC00A9B29C /* busy.mp3 */; };
 		F083BDE71E7009ED00A9B29C /* callend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F083BBDC1E7009EC00A9B29C /* callend.mp3 */; };
 		F083BDE81E7009ED00A9B29C /* message.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F083BBDD1E7009EC00A9B29C /* message.mp3 */; };
@@ -2624,7 +2624,7 @@
 						CreatedOnToolsVersion = 8.3.2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -3040,6 +3040,7 @@
 				B1B5572F20EE6C4D00210D55 /* ReadReceiptsViewController.m in Sources */,
 				B1B558CB20EF768F00210D55 /* RoomIncomingEncryptedTextMsgWithoutSenderInfoBubbleCell.m in Sources */,
 				B169330B20F3CA3A00746532 /* Contact.m in Sources */,
+				03A3F07B21E443A90097B178 /* AppDelegate.m in Sources */,
 				B1B5599220EFC5E400210D55 /* Analytics.m in Sources */,
 				B1B558C320EF768F00210D55 /* RoomIncomingEncryptedTextMsgWithoutSenderNameBubbleCell.m in Sources */,
 				B1B5577420EE702900210D55 /* WidgetViewController.m in Sources */,
@@ -3124,7 +3125,6 @@
 				B1798302211B13B3001FD722 /* OnBoardingManager.swift in Sources */,
 				B1B5573520EE6C4D00210D55 /* GroupDetailsViewController.m in Sources */,
 				B1B5575220EE6C4D00210D55 /* RoomKeyRequestViewController.m in Sources */,
-				F083BD1E1E7009ED00A9B29C /* AppDelegate.m in Sources */,
 				B1B558E620EF768F00210D55 /* RoomIncomingAttachmentWithoutSenderInfoBubbleCell.m in Sources */,
 				B1B557D820EF5EA900210D55 /* RoomActivitiesView.m in Sources */,
 				B1B5596620EF9E9B00210D55 /* RoomTableViewCell.m in Sources */,
@@ -3300,9 +3300,8 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_ENTITLEMENTS = RiotShareExtension/SupportingFiles/RiotShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = YSN2QEMFU9;
 				ENABLE_BITCODE = NO;
@@ -3318,9 +3317,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin.shareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl.shareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = tungriot_ext;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFiles/RiotShareExtension-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -3336,9 +3335,8 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_ENTITLEMENTS = RiotShareExtension/SupportingFiles/RiotShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YSN2QEMFU9;
@@ -3355,9 +3353,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin.shareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl.shareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = tungriot_ext;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFiles/RiotShareExtension-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -3372,8 +3370,8 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = SiriIntents/SiriIntents.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = YSN2QEMFU9;
 				ENABLE_BITCODE = NO;
@@ -3384,9 +3382,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin.SiriIntents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl.SiriIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = riotSiri_ext;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -3400,7 +3398,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = SiriIntents/SiriIntents.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YSN2QEMFU9;
@@ -3412,9 +3410,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin.SiriIntents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl.SiriIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = riotSiri_ext;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -3560,9 +3558,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = tungriot_dev;
+				PROVISIONING_PROFILE_SPECIFIER = tungriot_apns_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFiles/Riot-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3605,9 +3603,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.im.vector.app.qrlin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungqr.apns.ssl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = tungriot;
+				PROVISIONING_PROFILE_SPECIFIER = tungriot_apns;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFiles/Riot-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;

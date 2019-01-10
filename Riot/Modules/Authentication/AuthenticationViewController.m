@@ -288,7 +288,7 @@
 - (void)logAppPath
 {
     //app group路径
-    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.im.vector.app.qrlin"];
+    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.tungqr.apns.ssl"];
     NSLog(@"app group:\n%@",containerURL.path);
     
     //打印可执行文件路径

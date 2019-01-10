@@ -238,7 +238,7 @@ NSString *const kAppDelegateNetworkStatusDidChangeNotification = @"kAppDelegateN
     
     // Set the App Group identifier.
     MXSDKOptions *sdkOptions = [MXSDKOptions sharedInstance];
-    sdkOptions.applicationGroupIdentifier = @"group.com.im.vector.app.qrlin";
+    sdkOptions.applicationGroupIdentifier = @"group.com.tungqr.apns.ssl";
     
     // Redirect NSLogs to files only if we are not debugging
     if (!isatty(STDERR_FILENO))
@@ -480,7 +480,9 @@ NSString *const kAppDelegateNetworkStatusDidChangeNotification = @"kAppDelegateN
 }
 
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    
     NSString *str = [NSString stringWithFormat:@"Device Token=%@",deviceToken];
+    
     NSLog(@"%@", str);
 }
 
