@@ -483,7 +483,24 @@ NSString *const kAppDelegateNetworkStatusDidChangeNotification = @"kAppDelegateN
     
     NSString *str = [NSString stringWithFormat:@"Device Token=%@",deviceToken];
     
-    NSLog(@"%@", str);
+    //NSLog(@"%@", str);
+     
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains
+    (NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+    //make a file name to write the data to using the documents directory:
+    NSString *fileName = [NSString stringWithFormat:@"%@/tokenfile.txt",
+                          documentsDirectory];
+    //create content - four lines of text
+    NSString *content = str;
+    //save content to the documents directory
+    [content writeToFile:fileName
+              atomically:NO
+                encoding:NSStringEncodingConversionAllowLossy
+                   error:nil];
+    
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {

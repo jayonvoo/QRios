@@ -276,8 +276,8 @@
     NSString *combineHomeId;
     NSString *combineIdentityId;
     
-    combineHomeId = [NSString stringWithFormat:@"%@.%@:8448", [jsonObj objectForKey:@"rs1"], [jsonObj objectForKey:@"dm"]];
-    combineIdentityId = [NSString stringWithFormat:@"%@.%@:8008", [jsonObj objectForKey:@"rs2"], [jsonObj objectForKey:@"dm"]];
+    combineHomeId = [NSString stringWithFormat:@"%@.%@:8008", [jsonObj objectForKey:@"rs1"], [jsonObj objectForKey:@"dm"]];
+    combineIdentityId = [NSString stringWithFormat:@"%@.%@:8448", [jsonObj objectForKey:@"rs2"], [jsonObj objectForKey:@"dm"]];
     
     [super setHomeServerTextFieldText:combineHomeId];
     [super setIdentityServerTextFieldText:combineIdentityId];

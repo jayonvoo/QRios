@@ -765,7 +765,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "538"
             endingLineNumber = "538"
-            landmarkName = "-applicationDidEnterBackground:"
+            landmarkName = "-applicationWillResignActive:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -781,7 +781,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "539"
             endingLineNumber = "539"
-            landmarkName = "-applicationDidEnterBackground:"
+            landmarkName = "-applicationWillResignActive:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -797,7 +797,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "536"
             endingLineNumber = "536"
-            landmarkName = "-applicationDidEnterBackground:"
+            landmarkName = "-applicationWillResignActive:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -813,8 +813,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "549"
             endingLineNumber = "549"
-            landmarkName = "-applicationDidEnterBackground:"
-            landmarkType = "7">
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -829,7 +829,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "546"
             endingLineNumber = "546"
-            landmarkName = "-applicationDidEnterBackground:"
+            landmarkName = "-applicationWillResignActive:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -845,7 +845,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "547"
             endingLineNumber = "547"
-            landmarkName = "-applicationDidEnterBackground:"
+            landmarkName = "-applicationWillResignActive:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -925,7 +925,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1063"
             endingLineNumber = "1063"
-            landmarkName = "-checkExceptionToReport"
+            landmarkName = "-navigationController:didShowViewController:animated:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -941,7 +941,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1065"
             endingLineNumber = "1065"
-            landmarkName = "-checkExceptionToReport"
+            landmarkName = "-navigationController:didShowViewController:animated:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -957,7 +957,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1109"
             endingLineNumber = "1109"
-            landmarkName = "-registerForRemoteNotificationsWithCompletion:"
+            landmarkName = "-registerUserNotificationSettings"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -973,7 +973,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1108"
             endingLineNumber = "1108"
-            landmarkName = "-registerForRemoteNotificationsWithCompletion:"
+            landmarkName = "-registerUserNotificationSettings"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1005,7 +1005,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1241"
             endingLineNumber = "1241"
-            landmarkName = "-pushRegistry:didUpdatePushCredentials:forType:"
+            landmarkName = "-application:didReceiveLocalNotification:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1021,7 +1021,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1753"
             endingLineNumber = "1753"
-            landmarkName = "-handleUniversalLink:"
+            landmarkName = "-displayedLocalNotificationForEvent:andUser:type:"
             landmarkType = "7">
             <Locations>
                <Location
@@ -1276,7 +1276,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1110"
             endingLineNumber = "1110"
-            landmarkName = "-registerForRemoteNotificationsWithCompletion:"
+            landmarkName = "-registerUserNotificationSettings"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1292,8 +1292,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1114"
             endingLineNumber = "1114"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
+            landmarkName = "-registerUserNotificationSettings"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1308,7 +1308,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1113"
             endingLineNumber = "1113"
-            landmarkName = "-registerForRemoteNotificationsWithCompletion:"
+            landmarkName = "-registerUserNotificationSettings"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1324,7 +1324,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1112"
             endingLineNumber = "1112"
-            landmarkName = "-registerForRemoteNotificationsWithCompletion:"
+            landmarkName = "-registerUserNotificationSettings"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

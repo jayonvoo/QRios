@@ -8,10 +8,6 @@
 	<true/>
 	<key>pushGatewayURL</key>
 	<string>https://msgsrvrim.sltung.com.tw:8090/_matrix/push/v1/notify</string>
-	<key>pusherAppIdDev</key>
-	<string>com.tungqr.apns.ssl</string>
-	<key>pusherAppIdProd</key>
-	<string>com.tungqr.apns.ssl</string>
 	<key>pushKitAppIdProd</key>
 	<string>com.tungqr.apns.ssl</string>
 	<key>identityserverurl</key>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0326A95221C8E836004CCC99 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B556FC20EE6C4C00210D55 /* AuthenticationViewController.m */; };
+		033CD22C21E7710300B477FA /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033CD22B21E7710300B477FA /* PushKit.framework */; };
 		036A2AD021D688D700E5B323 /* RiotShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24CBEC4E1F0EAD310093EABB /* RiotShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		036A2AD121D688E200E5B323 /* SiriIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 92726A431F58737A004AD26F /* SiriIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		03A3F07B21E443A90097B178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F083BB0D1E7009EC00A9B29C /* AppDelegate.m */; };
@@ -380,6 +381,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		033CD22B21E7710300B477FA /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		03DB76D321E23E6F0088CA3A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		03E212BB21CB86770008F6A1 /* Riot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riot.entitlements; sourceTree = "<group>"; };
 		24CBEC4E1F0EAD310093EABB /* RiotShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RiotShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -950,6 +952,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033CD22C21E7710300B477FA /* PushKit.framework in Frameworks */,
 				3233F7461F3497E2006ACA81 /* JitsiMeet.framework in Frameworks */,
 				89C94E649229EA68AE787E9E /* Pods_RiotPods_Riot.framework in Frameworks */,
 				03DB76D421E23E6F0088CA3A /* AudioToolbox.framework in Frameworks */,
@@ -1003,6 +1006,7 @@
 		5FC42FA41F5186AFFB6A2404 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				033CD22B21E7710300B477FA /* PushKit.framework */,
 				03DB76D321E23E6F0088CA3A /* AudioToolbox.framework */,
 				92726A501F587410004AD26F /* Intents.framework */,
 				2510A69B4A681C1FEC36E848 /* Pods_RiotPods_Riot.framework */,
