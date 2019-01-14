@@ -484,7 +484,7 @@ NSString *const kAppDelegateNetworkStatusDidChangeNotification = @"kAppDelegateN
     NSString *str = [NSString stringWithFormat:@"Device Token=%@",deviceToken];
     
     //NSLog(@"%@", str);
-     
+    
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains
     (NSDocumentDirectory, NSUserDomainMask, YES);
